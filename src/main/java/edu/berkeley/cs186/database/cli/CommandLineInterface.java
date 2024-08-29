@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 public class CommandLineInterface {
     private static final String MASCOT = "\n\\|/  ___------___\n \\__|--%s______%s--|\n    |  %-9s |\n     ---______---\n";
     private static final int[] VERSION = { 1, 8, 6 }; // {major, minor, build}
-    private static final String LABEL = "sp24";
+    private static final String LABEL = "fa24";
 
     private InputStream in;
     private PrintStream out; // Use instead of System.out to work across a network
